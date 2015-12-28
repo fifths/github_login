@@ -1,7 +1,13 @@
 # GitHub Login
+[![Build Status](https://travis-ci.org/fifths/github_login.svg?branch=master)](https://travis-ci.org/fifths/github_login)
+
+
 
 GitHub 第三方登陆
 
+    composer require fifths/github_login
+
+## Example
 ### authorize
 ```
 require '../vendor/autoload.php';
