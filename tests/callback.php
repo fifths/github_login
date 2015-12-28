@@ -1,19 +1,10 @@
-# GitHub Login
-
-GitHub 第三方登陆
-
-### authorize
-```
-require '../vendor/autoload.php';
-
-use  GitHub\GitHub;
-
-$gitHub=new GitHub();
-$gitHub->authorize('abc');
-```
-
-### get_user_info
-```
+<?php
+/**
+ * Created by PhpStorm.
+ * User: lee
+ * Date: 15/12/28
+ * Time: 21:04
+ */
 require '../vendor/autoload.php';
 
 use  GitHub\GitHub;
@@ -27,4 +18,3 @@ if(isset($_GET['code'])){
     $info=json_decode($getData, true);
     print_r($info);
 }
-```

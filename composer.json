@@ -1,0 +1,20 @@
+{
+    "name": "fifths/github_login",
+    "description": "github_login",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fifths",
+            "email": "ligangmingx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fifths/php_curl": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GitHub\\": "src/GitHub/"
+        }
+    }
+}
