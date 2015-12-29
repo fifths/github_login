@@ -1,6 +1,9 @@
 # GitHub Login
 [![Build Status](https://travis-ci.org/fifths/github_login.svg?branch=master)](https://travis-ci.org/fifths/github_login)
-
+[![Latest Stable Version](https://poser.pugx.org/fifths/github_login/v/stable)](https://packagist.org/packages/fifths/github_login)
+[![Total Downloads](https://poser.pugx.org/fifths/github_login/downloads)](https://packagist.org/packages/fifths/github_login)
+[![Latest Unstable Version](https://poser.pugx.org/fifths/github_login/v/unstable)](https://packagist.org/packages/fifths/github_login)
+[![License](https://poser.pugx.org/fifths/github_login/license)](https://packagist.org/packages/fifths/github_login)
 
 
 GitHub 第三方登陆
