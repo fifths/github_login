@@ -10,4 +10,4 @@ require '../vendor/autoload.php';
 use  GitHub\GitHub;
 
 $gitHub=new GitHub();
-$gitHub->authorize('abc');
+echo $gitHub->getAuthorizeUrl('ceshi');
