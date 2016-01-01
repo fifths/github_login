@@ -35,11 +35,21 @@ class GitHub
         }
     }
 
+    /**
+     * buildUrl
+     * @param $data
+     * @return string
+     */
     public function buildUrl($data)
     {
         return empty($data) ? '' : '?' . urldecode(http_build_query($data));
     }
 
+    /**
+     * getAuthorizeUrl
+     * @param $state
+     * @return string
+     */
     public function getAuthorizeUrl($state)
     {
         $data = array();
@@ -50,12 +60,21 @@ class GitHub
         return $url;
     }
 
+    /**
+     * authorize
+     * @param string $state
+     */
     public function authorize($state = '')
     {
         $url = $this->getAuthorizeUrl($state);
         header("location:$url");
     }
 
+    /**
+     * get_access_token
+     * @param $code
+     * @return array
+     */
     public function get_access_token($code)
     {
         $data = array();
@@ -70,6 +89,11 @@ class GitHub
         return $token;
     }
 
+    /**
+     * get_user_info
+     * @param $access_token
+     * @return string
+     */
     public function get_user_info($access_token)
     {
         $data = array();
