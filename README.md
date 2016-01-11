@@ -8,9 +8,14 @@
 
 GitHub 第三方登陆
 
+### Installation(安装)
+
     composer require fifths/github_login
 
-## Example
+### Example test
+
+    http://demo.admin1024.com/github_login/tests/index.php
+
 ### authorize
 ```
 require '../vendor/autoload.php';
