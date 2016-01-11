@@ -1,8 +1,1 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: lee
- * Date: 15-12-30
- * Time: 上午10:22
- */
-echo '1';
+GitHub:<a href="https://github.com/fifths/github_login"/>https://github.com/fifths/github_login</a>
