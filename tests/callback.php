@@ -19,9 +19,8 @@ if(isset($_GET['code'])){
         $info=json_decode($getData, true);
         //echo json_encode($info);
         //save userinfo
-        session_start();
         $_SESSION['github']=$info;
-        echo json_encode($_SESSION['github']);
+        print_r($_SESSION['github']);
     }
 }
 //header("location:index.php");
