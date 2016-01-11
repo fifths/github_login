@@ -2,9 +2,8 @@
 <br/>
 <h1>Login:<a href="http://demo.admin1024.com/github_login/tests/login.php">登陆页面</a></h1>
 <?php
-
-print_r($_SESSION);
 $github = isset($_SESSION['github']) ? $_SESSION['github'] : [];
+print_r($_SESSION);
 if (!empty($github)) {
     ?>
     <table>
