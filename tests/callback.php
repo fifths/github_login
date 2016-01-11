@@ -8,7 +8,7 @@
 require '../vendor/autoload.php';
 
 use  GitHub\GitHub;
-
+session_start();
 if(isset($_GET['code'])){
     $code=$_GET['code'];
     $gitHub=new GitHub();
