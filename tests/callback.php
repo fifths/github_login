@@ -21,4 +21,4 @@ if(isset($_GET['code'])){
         $_SESSION['github']=$info;
     }
 }
-header("location:index.php");
+//header("location:index.php");
