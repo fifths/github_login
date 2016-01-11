@@ -20,7 +20,7 @@ if(isset($_GET['code'])){
         //echo json_encode($info);
         //save userinfo
         $_SESSION['github']=$info;
-        print_r($_SESSION['github']);
+        echo json_encode($_SESSION['github']);
     }
 }
-//header("location:index.php");
+header("location:index.php");
