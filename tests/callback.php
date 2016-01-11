@@ -17,9 +17,10 @@ if(isset($_GET['code'])){
         $access_token=$token['access_token'];
         $getData=$gitHub->get_user_info($access_token);
         $info=json_decode($getData, true);
-        echo json_encode($info);
+        //echo json_encode($info);
         //save userinfo
         $_SESSION['github']=$info;
+        echo json_encode($_SESSION['github']);
     }
 }
 //header("location:index.php");
