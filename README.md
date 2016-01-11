@@ -14,7 +14,7 @@ GitHub 第三方登陆
 
 ### Example test
 
-    http://demo.admin1024.com/github_login/tests/index.php
+    http://demo.w3chub.com/github_login/tests/index.php
 
 ### authorize
 ```
