@@ -10,4 +10,7 @@ require '../vendor/autoload.php';
 use  GitHub\GitHub;
 
 $gitHub=new GitHub();
-echo $gitHub->getAuthorizeUrl('ceshi');
+//to redirect
+$gitHub->authorize('ceshi');
+
+//echo $gitHub->getAuthorizeUrl('ceshi');

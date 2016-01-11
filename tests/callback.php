@@ -13,8 +13,12 @@ if(isset($_GET['code'])){
     $code=$_GET['code'];
     $gitHub=new GitHub();
     $token=$gitHub->get_access_token($code);
-    $access_token=$token['access_token'];
-    $getData=$gitHub->get_user_info($access_token);
-    $info=json_decode($getData, true);
-    print_r($info);
+    if(isset($token['access_token'])){
+        $access_token=$token['access_token'];
+        $getData=$gitHub->get_user_info($access_token);
+        $info=json_decode($getData, true);
+        //save userinfo
+        $_SESSION['github']=$info;
+    }
 }
+header("location:index.php");
