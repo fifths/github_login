@@ -1,1 +1,1 @@
-<h1><a href="authorize.php">登陆</a></h1>
+<h1><a href="authorize.php">授权登陆</a></h1>
