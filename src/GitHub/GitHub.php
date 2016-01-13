@@ -16,9 +16,6 @@ class GitHub
     public function __construct()
     {
         $this->connection_string();
-        if ($this->client_id == '' || $this->client_secret == '' || $this->redirect_uri == '') {
-            throw new \ErrorException('param is empty');
-        }
     }
 
     private function connection_string()
