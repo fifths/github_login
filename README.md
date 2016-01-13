@@ -17,7 +17,7 @@ GitHub 第三方登陆
 http://demo.w3chub.net/github_login/tests/index.php
 
 ### authorize
-```
+```php
 require '../vendor/autoload.php';
 
 use  GitHub\GitHub;
@@ -27,7 +27,7 @@ $gitHub->authorize('abc');
 ```
 
 ### get_user_info
-```
+```php
 require '../vendor/autoload.php';
 
 use  GitHub\GitHub;
