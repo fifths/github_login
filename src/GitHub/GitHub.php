@@ -9,9 +9,9 @@ use Curl\Curl;
  */
 class GitHub
 {
-    private $client_id = '';
-    private $client_secret = '';
-    private $redirect_uri = '';
+    public $client_id = '';
+    public $client_secret = '';
+    public $redirect_uri = '';
 
     public function __construct()
     {
