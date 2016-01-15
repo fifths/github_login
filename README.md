@@ -12,10 +12,6 @@ GitHub 第三方登陆
 
     composer require fifths/github_login
 
-### Example test
-
-http://demo.w3chub.net/github_login/tests/index.php
-
 ### authorize
 ```php
 require '../vendor/autoload.php';

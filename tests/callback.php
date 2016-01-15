@@ -23,4 +23,4 @@ if(isset($_GET['code'])){
         echo json_encode($_SESSION['github']);
     }
 }
-header("location:index.php");
+//header("location:index.php");
